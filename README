@@ -1,0 +1,16 @@
+This project aims to recommend the top three videos for any given patient.
+
+# General usage
+1. Install all libraries specified in “requirements.txt”.
+2. Run Jupyter Notebook and open “AI Hacks Notebook.ipynb”.
+3. Run all cells.
+
+Patient and video data sets are expected to be in the same format as given. They should be placed within a folder titled "Data" and the folder should be in the same folder as the Jupiter Notebook.
+
+# Getting recommendations
+Within the “Recommendation Model” section and “Model to Find Closest Patients” subsection, replace the value for the variable “rec_patient_id” with the patient ID that will be recommended the videos. Note that the patient ID must exist in the patient data set.
+
+Run all the following cells to obtain the video recommendation.
+
+# Testing
+A commented block of code has been made available for checking similarities of patients deemed close to patient that is being given the recommendation. It can be found at the end of the “Model to Find Closest Patients” subsection. 
